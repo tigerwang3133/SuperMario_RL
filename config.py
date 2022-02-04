@@ -9,7 +9,7 @@ from distutils import spawn
 CONFIG_FILE_DIR = os.path.dirname(os.path.abspath(__file__))
 #FCEUX_SEARCH_PATH = os.pathsep.join([os.environ['PATH'], '/usr/games', '/usr/local/games'])
 #FCEUX_PATH = spawn.find_executable('fceux', FCEUX_SEARCH_PATH)
-FCEUX_PATH = 'C:\Users\admin\Documents\GitHub\SuperMario_RL\NES\fceux.exe'
+FCEUX_PATH = '.\NES\fceux.exe'
 ROM_FILE = os.path.join(CONFIG_FILE_DIR, "SuperMarioBros/super-mario.nes")
 PLUGIN_FILE = os.path.join(CONFIG_FILE_DIR, "SuperMarioBros/super-mario-bros.lua")
 EMULATOR_LOST_DELAY = 50000 # ms
